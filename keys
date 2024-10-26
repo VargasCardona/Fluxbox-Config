@@ -1,10 +1,9 @@
-
 # custom
-OnWindowMaximize MaximizeDecor None
 Mod4 q :Close
 OnWindow Mod4 Mouse1 :StartMoving
-Mod4 w :ToggleMaximize
-Mod4 Tab :Exec ~/.config/polybar/cuts/scripts/launcher.sh & 
+Mod4 W :Maximize
+Mod4 Tab :Exec ~/.config/polybar/cuts/scripts/launcher.sh &
+OnWindow Mod4 Mouse3 :StartResizing bottomright
 
 # click on the desktop to get menus
 OnDesktop Mouse1 :HideMenus
