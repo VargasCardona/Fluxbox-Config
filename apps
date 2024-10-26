@@ -7,3 +7,6 @@
 [app] (name=Navigator) (class=firefox) (role=browser)
   [Deco]	{NONE}
 [end]
+[app] (class=discord)
+  [Deco]	{NONE}
+[end]
