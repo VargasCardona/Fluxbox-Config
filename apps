@@ -1,0 +1,9 @@
+[app] (name=olybar)
+  [Position]	(WINCENTER)	{0 0}
+[end]
+[app] (name=fbrun)
+  [Position]	(CENTER)	{0 0}
+[end]
+[app] (name=Navigator) (class=firefox) (role=browser)
+  [Deco]	{NONE}
+[end]
