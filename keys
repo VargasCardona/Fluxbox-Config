@@ -5,6 +5,15 @@ Mod4 W :Maximize
 Mod4 Tab :Exec ~/.config/polybar/cuts/scripts/launcher.sh &
 OnWindow Mod4 Mouse3 :StartResizing bottomright
 
+XF86MonBrightnessDown :Exec brightnessctl s 10%-
+XF86MonBrightnessUp :Exec brightnessctl s 10%+
+
+XF86AudioRaiseVolume :Exec pactl set-sink-volume @DEFAULT_SINK@ +5%
+XF86AudioLowerVolume :Exec pactl set-sink-volume @DEFAULT_SINK@ -5%
+
+# Silenciar / Restaurar volumen
+XF86AudioMute :Exec pactl set-sink-mute @DEFAULT_SINK@ toggle
+
 # click on the desktop to get menus
 OnDesktop Mouse1 :HideMenus
 OnDesktop Mouse2 :WorkspaceMenu

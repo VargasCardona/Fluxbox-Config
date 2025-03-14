@@ -20,7 +20,8 @@ xmodmap "/home/sieg/.Xmodmap"
 xrandr --output HDMI-1-0 --mode 1920x1080 --right-of eDP-1
 nitrogen --restore
 .config/polybar/launch.sh --cuts
-
+xcompmgr -c &
 exec fluxbox
 # or if you want to keep a log:
 # exec fluxbox -log "/home/sieg/.fluxbox/log"
+
